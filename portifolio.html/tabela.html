@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados tabulados html</title>
+
+</head>
+
+<body>
+    <h1 >Exemplos de tabelas</h1>
+    <hr>
+
+    <table border="1">
+        <caption>Relação de clientes</caption>
+
+        <thead> <!-- a caebeça da tabela-->
+            <tr> 
+                <th>País</th>
+                <th>nome</th>
+                <th>cidade</th>
+                <th>contato</th>
+            </tr>
+        </thead> 
+
+        <tbody> <!-- o corpo da tabela-->
+
+            <tr>
+                <td rowspan="4">Brasil</td>
+                <td>chaves</td>
+                <td>praia grande</td>
+                <td>11-2135-0300</td>
+            </tr>
+
+            <tr>
+               
+                <td>chapolin</td>
+                <td>ubatuba</td>
+                <td>11-5555-4444</td>
+            </tr>
+
+            <tr>
+                
+                <td>seu madruga</td>
+                <td>são paulo</td>
+                <td>11-3333-2222</td>
+            </tr>
+
+            <tr>
+               
+                <td>bruxa do 71</td>
+                <td>salem</td>
+                <td>11-6666-6666</td>
+            </tr>
+        </tbody>
+
+        <tfoot> <!-- rodapé da tabela (opcional) -->
+            <tr> 
+                <!--cols pan mescla colunas/ células,mescla horizontalmente-->
+                <td colspan="4">total de clients: 4</td>
+            </tr>
+        </tfoot> 
+    </table>
+
+</body>
+
+</html>
